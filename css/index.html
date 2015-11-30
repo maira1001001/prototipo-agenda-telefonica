@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prototipo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!--Personal styles -->
+    <link rel="stylesheet" href="css/phonebook-styles.css" type="text/css" media="screen" title="Phonebook personal style" charset="utf-8">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-blue">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <span class="content-icon">
+              <h2>
+                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+              </h2>
+            </span>
+            <span class="navbar-title">
+              Agenda Telefónica
+            </span>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <form class="navbar-form navbar-right">
+              <div class="input-group">
+                <input type="text" class="form-control input-search" placeholder="Desarrollo">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+                </span>
+              </div><!-- /input-group -->
+            </form>
+          </div>
+        </div><!-- /.row -->
+      </div>
+    </nav>
+    <div class="container">
+      <!-- RESULTADOS -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 results">
+          <!-- RESULTADO 1 -->
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-result">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="glyphicon glyphicon-circle color-cespi"></span> 
+                    <span>
+                     Ce.S.P.I.
+                    <span class="glyphicon glyphicon-menu-right color-cespi"></span> 
+                     Desarrollo 
+                    </span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <p>
+                        <span class="glyphicon glyphicon-phone color-cespi" aria-hidden="true"></span>
+                          Prefijo:<a href="#">26</a>
+                      </p>
+                      <p>
+                        <span class="glyphicon glyphicon-asterisk color-cespi" aria-hidden="true"></span>
+                        Interno:<a href="tel:+13174562564">235</a>
+                      </p>
+                      <p>
+                        <span class="glyphicon glyphicon-map-marker color-cespi" aria-hidden="true"></span>
+                        Dirección: 50 y 115 </p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <img with="150" height="150" src="images/google-map-example-1.jpg" alt="Google Map image1">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FIN RESUTLADO 1 -->
+
+           <!-- RESULTADO 2 -->
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-result">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseResult2" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="glyphicon glyphicon-circle color-ingenieria"></span> 
+                    <span>
+                      Facultad de Ingenieria
+                      <span class="glyphicon glyphicon-menu-right color-ingenieria"></span> 
+                      Desarrollo 
+                    </span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseResult2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <p>
+                        <span class="glyphicon glyphicon-phone color-ingenieria" aria-hidden="true"></span>
+                          Prefijo:<a href="#">26</a>
+                      </p>
+                      <p>
+                        <span class="glyphicon glyphicon-asterisk color-ingenieria" aria-hidden="true"></span>
+                        Interno:<a href="tel:+13174562564">235</a>
+                      </p>
+                      <p>
+                        <span class="glyphicon glyphicon-map-marker color-ingenieria" aria-hidden="true"></span>
+                        Dirección: 50 y 115 </p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <img with="150" height="150" src="images/google-map-example-1.jpg" alt="Google Map image1">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FIN RESUTLADO 2 -->
+ 
+          <!-- RESULTADO 2 -->
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-result">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseResult2" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="glyphicon glyphicon-circle color-ingenieria"></span> 
+                    <span>
+                      Facultad de Ingenieria
+                      <span class="glyphicon glyphicon-menu-right color-ingenieria"></span> 
+                      Desarrollo 
+                    </span>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseResult2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <p>
+                        <span class="glyphicon glyphicon-phone color-ingenieria" aria-hidden="true"></span>
+                          Prefijo:<a href="#">26</a>
+                      </p>
+                      <p>
+                        <span class="glyphicon glyphicon-asterisk color-ingenieria" aria-hidden="true"></span>
+                        Interno:<a href="tel:+13174562564">235</a>
+                      </p>
+                      <p>
+                        <span class="glyphicon glyphicon-map-marker color-ingenieria" aria-hidden="true"></span>
+                        Dirección: 50 y 115 </p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <img with="150" height="150" src="images/google-map-example-1.jpg" alt="Google Map image1">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FIN RESUTLADO 2 -->
+        </div>
+
+      <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+
+        <h4> Filtrar por Unidad Académica</h4>
+        <hr>
+        
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-presidencia"></span>
+            <span>Presidencia - No docencia</span>
+          </a>
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-cespi"></span> 
+            <span>Ce.S.P.I.</span>
+          </a>
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-informatica"></span> 
+            <span>Facultad de Informática</span>
+          </a>
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-ingenieria"></span>
+            <span>Facultad de Ingeniería</span>
+          </a>
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-exactas"></span>
+            <span>Facultad de Exactas</span>
+          </a>
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-agrarias"></span>
+            <span>Facultad de Cienas Agrarias y Forestales</span>
+          </a>
+          <a href="#" class="list-group-item">
+            <span class="glyphicon glyphicon-circle color-veterinaria"></span>
+            <span>Facultad de Veterinaria</span>
+          </a>
+        </div>
+    </div>
+
+    </div>
+  </div>
+  <!-- FIN RESULTADOS -->
+</div>
+
+
+</body>
+
+</html>
+
+

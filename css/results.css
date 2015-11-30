@@ -1,0 +1,131 @@
+body.index{ background-color: #ecf0f1; }
+
+.container{ margin-top: 30px }
+
+.input-search{
+  width: 513px !important;
+  height: 45px !important;
+  border-radius: 0px;
+}
+
+/* bootstrap icon: circle*/
+.glyphicon.glyphicon-circle:before {
+    content: "\25cf";
+    font-size: 1em;
+}
+
+/* color de las unidades academicas */
+.color-presidencia{color: #7f8c8d}
+.color-informatica{color: #943343}
+.color-exactas{color: #e74c3c}
+.color-juridicas{color: #2C3D50}
+.color-humanidades{color: #e74c3c}
+.color-veterinaria{color:#2c3e50}
+.color-ingenieria{color:#2980b9}
+.color-agrarias{color: #f39c12}
+.color-cespi{color: #16a085}
+
+
+/* Navbar*/
+.navbar-blue{
+  background-image: -webkit-linear-gradient(top,#2c3e50 0,#34495e 100%);
+  background-image: -o-linear-gradient(top,#2c3e50 0,#34495e 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#2c3e50),to(#34495e));
+  background-image: linear-gradient(to bottom,#2c3e50 0,#34495e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2c3e50', endColorstr='#fff34495e', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  background-image: linear-gradient(to bottom,#2c3e50 0,#34495e 100%);
+  border-radius: 0px;
+  height: 90px;
+  padding: 15px;
+}
+
+
+.navbar-brand, .navbar-brand:hover{
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-title{
+  margin: 20px;
+}
+
+.container-fluid{ margin-top: -8px !important; }
+
+.content-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.content-icon h3{
+  margin: 0px;
+}
+
+.content-icon .glyphicon {
+  color: #2c3e50;
+  padding: 5px;
+}
+
+/* Filter: list-group styles*/
+.list-group span{
+  margin: 10px;
+  font-size: 12px;
+}
+
+.list-group-item:first-child{
+  border-radius: 0px;
+}
+
+.list-group-item:last-child{
+  border-radius: 0px; 
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  background-image: -webkit-linear-gradient(top,#2c3e50 0,#34495e 100%);
+  background-image: -o-linear-gradient(top,#2c3e50 0,#34495e 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#2c3e50),to(#34495e));
+  background-image: linear-gradient(to bottom,#2c3e50 0,#34495e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c3e50', endColorstr='#ff34495e', GradientType=0);
+  border-color: #34495e;
+  text-shadow: 0 -1px #34495e;
+}
+
+/* Results */
+.panel{
+  border-radius: 0px;
+  background-color: rgb(243, 243, 243);
+}
+
+.panel-heading {
+  background-color: white;
+  border-radius: 0px;
+}  
+.panel-heading span{
+  margin: 10px;
+}
+
+span.title{
+  margin-top: 20px !important;
+}
+
+.panel-result {
+  border-radius: 0px !important;
+}
+
+.panel-title{ font-size: 14px; }
+
+
+
